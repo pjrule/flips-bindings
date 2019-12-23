@@ -1,0 +1,8 @@
+# Examples
+```
+python plots.py --graph-json horizontal.json --shp 60x60_grid.shp --output-dir 60x60_horizontal_10m --prefix 60x60_horizontal --pop-col population --plan-col district --election a_share b_share --n-steps 10000000
+```
+
+```
+python plots.py --graph-json PA_VTD.json --shp PA_VTD/PA_VTD.shp --output-dir pa_results --prefix PA_VTD --pop-col TOTPOP --plan-col CD_2011 --n-steps 1000000
+```
